@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(techy.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.abtt {
+    margin-top: 10%;
+}
+
+.sideL {
+    margin: 0%;
+    padding: 0%;
+    width: 47%;
+    padding-bottom: 5rem;
+    margin-left: 1rem;
+    padding-left: 25px;
+    float: left;
+    background-color: rgb(247, 235, 235);
+    border-radius: 3rem;
+    box-shadow: 5px 5px 20px black;
+}
+.sideL h1 {
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.Tab tbody {
+    font-size: 20px;
+}
+
+.Tab  {
+    width: 120%;
+    
+}
+
+.sideR {
+    margin: 0%;
+    margin-right: 20px;
+    width: 48%;
+    padding-left: 1px;
+    float: right;
+    background-color: rgb(247, 235, 235);
+    border-radius: 3rem;
+    box-shadow: 5px 5px 20px black;
+}
+
+.sideR h1 {
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.sideR p {
+    font-size: 20px;      
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    padding-bottom: 15%;
+}
