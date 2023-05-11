@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
 
-* { margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+* 
 header {
     position: fixed;
     top: 0;
@@ -16,6 +13,7 @@ header {
     padding: 25px 100px;
     z-index: 1;
     text-shadow: 3px 3px 10px black;
+    
     
 }
 
@@ -30,6 +28,12 @@ header .navi {
     transition: 0.6;
     padding: 10px 10px 10px 10px;
     text-shadow: 3px 3px rgb(100, 176, 199);
+    transition: 0.5s;
+}
+
+header .navi:hover {
+    color: rgba(100, 176, 199);
+    text-shadow:3px 3px rgb(0, 0, 0);;
 }
 
 
@@ -56,6 +60,7 @@ header ul li a {
     padding: 6px;
     border-radius: 4rem ;
     font-size: 20px;
+    transition: 0.5s;
 }
 
 header ul li a:hover {

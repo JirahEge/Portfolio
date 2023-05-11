@@ -67,5 +67,22 @@ body {
     margin-left: 2rem;
     margin-right: 2rem;
     text-align: center;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
+    
+}
+
+.sideR p a {
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 4rem;
+    padding: 2px;
+    color: black;
+    background-color: rgb(100, 176, 199);
+    box-shadow: 5px 5px 20px black;
+    transition: 0.5s;
+}
+
+.sideR p a:hover {
+    color:  rgb(100, 176, 199);
+    background-color: black;
 }

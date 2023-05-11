@@ -98,6 +98,7 @@ body {
     background-color: rgb(100, 176, 199);
     box-shadow: 5px 5px 20px black;
     text-shadow: 2px 2px black;
+    transition: 0.5s;
    
 }
 
